@@ -1,0 +1,34 @@
+{
+  "name": "socket.ts",
+  "version": "1.0.0",
+  "description": "websocket implementation for node.js with typescript.",
+  "main": "dist/main.js",
+  "types": "src/main.ts",
+  "scripts": {
+    "build": "tsc",
+    "publish": "npm run build && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seungh06/socket.ts.git"
+  },
+  "author": "seung.h <delspace0011@gmail.com> (https://github.com/seungh06)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^17.0.4",
+    "typescript": "^4.5.4"
+  },
+  "keywords": [
+    "websocket",
+    "websockets",
+    "socket",
+    "rfc-6455",
+    "client"
+  ],
+  "homepage": "https://github.com/seungh06/socket.ts",
+  "bugs": "https://github.com/seungh06/socket.ts/issues",
+  "files": [
+    "dist",
+    "src"
+  ]
+}
